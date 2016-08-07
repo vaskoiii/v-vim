@@ -22,6 +22,24 @@ set wildmenu
 " use with :nohl
 set hlsearch
 
+" essay writing
+noremap j gj
+noremap k gk
+noremap $ g$
+noremap ^ g^
+noremap 0 g0
+" inverting
+noremap gj j
+noremap gk k
+noremap g$ $
+noremap g^ ^
+noremap g0 0
+" know also
+" (
+" )
+" {
+" }
+
 " invisibles
 set list
 set listchars=tab:▸\ ,eol:¬
