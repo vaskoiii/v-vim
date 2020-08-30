@@ -245,7 +245,10 @@ endif
 
 " netrw file handling invocation
 command! -nargs=1 -complete=file CTD call CtermTabDrop(<q-args>)
-noremap <leader><tab> :CTD %:h
+" makes you focus on the bottom of the screen / uses tab completion / typing ..
+" noremap <leader><tab> :CTD %:h
+" makes you focus on the top of the screen / no tab completion / using enter with .. highlighed
+noremap <leader><tab> :call GfTabDrop('')<cr>
 let g:netrw_banner=0
 
 " insert mode indicator
