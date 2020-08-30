@@ -12,6 +12,10 @@
 " ubuntu global tmux is at:
 "  /etc/tmux.conf
 
+" eliminating dependency on the ctrl key
+noremap <leader>j <c-d>
+noremap <leader>k <c-u>
+
 " keeping focus at the top of the screen
 "" simulate ctrl+l on the command line within vim
 noremap <leader>l z<cr>
