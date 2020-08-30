@@ -12,6 +12,13 @@
 " ubuntu global tmux is at:
 "  /etc/tmux.conf
 
+" keeping focus at the top of the screen
+"" simulate ctrl+l on the command line within vim
+noremap <leader>l z<cr>
+"" navigate in between blank lines
+noremap <leader>[ {z<cr>
+noremap <leader>] }z<cr>
+
 " silence annoying bell
 set noerrorbells visualbell t_vb=
 
