@@ -12,6 +12,9 @@
 " ubuntu global tmux is at:
 "  /etc/tmux.conf
 
+" silence annoying bell
+set noerrorbells visualbell t_vb=
+
 " general
 colorscheme murphy
 set showcmd
